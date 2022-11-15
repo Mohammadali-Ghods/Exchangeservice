@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="10.3.3" />
+		<PackageReference Include="MediatR" Version="9.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0" />
+		<PackageReference Include="System.ComponentModel" Version="4.3.0" />
+		<PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+		<PackageReference Include="System.Security.Claims" Version="4.3.0" />
+		<PackageReference Include="MongoDB.Entities" Version="20.20.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Commands\SymbolCommand\" />
+	  <Folder Include="Events\" />
+	</ItemGroup>
+
+</Project>
