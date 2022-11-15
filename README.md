@@ -37,4 +37,4 @@ Sharing JWT tokens, of course, is not secure but this system is just for testing
 
 
 # Why do you use Appsetting in another location and in a specific folder?
-I understand it is not normal work, but I used this word as a trick for the docker part. You can easily define volume for this specific folder and change it any time that you need, without a need to build a new image and publish it.
+I understand it is not normal work, but I did it as a trick for the Docker part. You can easily define Docker volume for this specific folder and change it any time that you need, without a need to build a new image and publish it.
