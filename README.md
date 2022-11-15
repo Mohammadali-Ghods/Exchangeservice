@@ -34,3 +34,7 @@ Customer Role:
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjczYzg3ZjJkLTRmZWQtNGU1OC1iNzdlLTc5ZWQwMmE5MDhmOCIsInJvbGUiOiJDdXN0b21lciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDkvMDkvaWRlbnRpdHkvY2xhaW1zL2FjY2Vzc2lnc3RvcmVzIjoiZGNiMDA5MDUtOTAyNi00MjY2LTk0NDQtMDQ1MWU5ZWM3MzQyIiwibmJmIjoxNjY4MDg3NDE2LCJleHAiOjE2ODkxNzM4MTYsImlhdCI6MTY2ODA4NzQxNn0.kPmmOrgxO9V-6ISKiMTJaSDOyBc9BzHfJmYL_lO9kuw
 
 Sharing JWT tokens, of course, is not secure but this system is just for testing and using as part of your microservices. If you have an IdentityServer or a central authorization system, you can easily replace it in code.
+
+
+#Why do you use Appsetting in another location and in a specific folder?
+I understand it is not normal work, but I used this word as a trick for the docker part. You can easily define volume for this specific folder and change it any time that you need, without a need to build a new image and publish it.
